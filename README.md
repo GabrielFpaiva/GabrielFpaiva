@@ -1,7 +1,6 @@
 # 💫 Hey there!
 
 👨‍💻 I'm Gabriel Fernandes, a junior developer from Brazil, welcome to my profile!<br>
-💬 You can ask me about anything related to front-end development, mobile apps, or tech in general. If I don't know the answer, I'll be happy to learn with you!<br>
 ⏳ Besides coding, I enjoy solving problems, collaborating on projects, and exploring new technologies. Feel free to connect with me!
 
 ## 🌐 Socials:
