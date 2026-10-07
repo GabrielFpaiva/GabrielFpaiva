@@ -41,7 +41,7 @@ Also worked with: Hono, Fastify, Drizzle ORM, Django, React Native, Flutter, Pla
 
 ## 📫 Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/gabriel-fernandes-paiva-b948b2209)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/gabriel-fernandes-paiva)
 [![Email](https://img.shields.io/badge/Email-gabrielpaiva.jm%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:gabrielpaiva.jm@gmail.com)
 
 Open to Backend / Full Stack opportunities — remote, CLT or PJ.
