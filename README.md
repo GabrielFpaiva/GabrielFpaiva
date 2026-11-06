@@ -50,5 +50,8 @@ Also: Hono, Fastify, Drizzle, Django, React Native, Flutter, Playwright, Vitest,
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=GabrielFpaiva&theme=transparent" alt="Repos per language" />
 </p>
 <p>
-  <img src="https://streak-stats.demolab.com?user=GabrielFpaiva&hide_border=true&background=00000000&ring=2563eb&fire=2563eb&currStreakLabel=2563eb" alt="Contribution streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=GabrielFpaiva&theme=dark&hide_border=true&background=00000000&ring=3b82f6&fire=3b82f6&currStreakLabel=3b82f6" />
+    <img src="https://streak-stats.demolab.com?user=GabrielFpaiva&hide_border=true&background=00000000&ring=2563eb&fire=2563eb&currStreakLabel=2563eb" alt="Contribution streak" />
+  </picture>
 </p>
