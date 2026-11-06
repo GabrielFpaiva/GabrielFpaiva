@@ -1,47 +1,54 @@
-# Gabriel Fernandes Paiva
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=170&section=header&text=Gabriel%20Fernandes%20Paiva&fontSize=40&fontColor=ffffff&desc=Backend%20Engineer%20%C2%B7%20Node.js%20%C2%B7%20TypeScript%20%C2%B7%20PostgreSQL%20%C2%B7%20Python&descSize=16&descAlignY=72" alt="Gabriel Fernandes Paiva — Backend Engineer" />
+</p>
 
-**Backend Software Engineer** — Node.js · TypeScript · PostgreSQL · Python · AWS
+<p align="center">
+  <a href="https://linkedin.com/in/gabriel-fernandes-paiva"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:gabrielpaiva.jm@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://gabrielfpaiva.com.br"><img src="https://img.shields.io/badge/Site-111827?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <img src="https://img.shields.io/badge/Open%20to-Backend%20%2F%20Full%20Stack-2563eb?style=flat-square" alt="Open to Backend / Full Stack" />
+</p>
 
-I build backends for domains where mistakes are expensive: money, credit and public data.
+I build backends where mistakes cost money: credit, payments and public finance data.
 
-Founder at **GF Tech Soluções**, where I design and ship production systems end to end — from requirements with non-technical clients to deploy and production support. Computer Science student at UFPB (Brazil), English C1.
+Founder of **GF Tech Soluções**. I take projects from the first conversation with a non-technical client to deploy and production support. CS student at UFPB (Brazil), English C1. I model the domain first, write the test first, and try to leave code the next person can maintain.
 
-I care about domain modeling, test-first development, and systems that other people can maintain.
+## In production
 
-## 🔍 Featured work
+| Project | What it does | Stack |
+|---|---|---|
+| **DW Aprova** | Credit onboarding for an affordable-housing real estate company: customer app plus a hub for brokers and bank correspondents. Identity check, credit pre-approval and income documents run as a tested state machine. ~400 test files. | Bun · Nx · Hono · Drizzle · Postgres · Next.js |
+| **PIAF** | Fiscal annexes of the budget guidelines law (LDO) for the City of João Pessoa, built from SICONFI data. | Python · Postgres |
+| **MSC validation engine** | 78 accounting rules checked before the city sends its data to the National Treasury, with PDF reports. Now a Windows desktop app. | Python · ReportLab |
+| **Real estate CRM** | Lead management with customer service over WhatsApp for a real estate agency. | TypeScript · Evolution API |
+| **Revenue pipeline** | Monthly revenue consolidation across Hotmart, Kiwify, Shopify and Asaas for a SaaS analytics business. | pandas · openpyxl |
 
-**[revenue-consolidation-api](https://github.com/GabrielFpaiva/revenue-consolidation-api)** — Multi-platform revenue consolidation API in Node.js + TypeScript. Layered (clean) architecture, idempotent ingestion, Money as a value object (integer cents — no floats in finance), 16 tests, zero native dependencies (`node:sqlite`).
+Client work, private repos.
 
-**[template-delivery](https://github.com/GabrielFpaiva/template-delivery)** — White-label delivery platform in Next.js + TypeScript (ports and adapters): catalog, search, cart, Pix checkout, customer area and admin panel.
+## Open source
 
-**[parcerio](https://github.com/GabrielFpaiva/parcerio)** — React Native app that models friendships as entities with level, history and "temperature"; Firestore rules and automated tests.
+| Repo | What it is |
+|---|---|
+| [revenue-consolidation-api](https://github.com/GabrielFpaiva/revenue-consolidation-api) | Revenue consolidation API. Clean architecture, idempotent ingestion, money in integer cents, no native deps (`node:sqlite`). |
+| [voice-bridge](https://github.com/GabrielFpaiva/voice-bridge) | Chrome extension that translates my speech PT→EN live in Google Meet, in my own cloned voice (ElevenLabs + Claude). |
+| [template-delivery](https://github.com/GabrielFpaiva/template-delivery) | White-label delivery platform in Next.js: catalog, cart, Pix checkout, admin. Ports and adapters keep the domain apart from Firebase. |
+| [parcerio](https://github.com/GabrielFpaiva/parcerio) | React Native app that treats each friendship as an entity with level, history and "temperature". Firestore rules under test. |
+| [mini-projeto-01-sbc](https://github.com/GabrielFpaiva/mini-projeto-01-sbc) | Rule-based expert system in Python (Experta), all 384 input combinations tested. |
 
-**[mini-projeto-01-sbc](https://github.com/GabrielFpaiva/mini-projeto-01-sbc)** — Rule-based expert system in Python (Experta): forward chaining, conflict resolution, explainable trace, all 384 input combinations tested.
+## Stack
 
-**Production experience (client work, private repos):**
-- **Real estate credit onboarding (DW Aprova)** — customer app and broker/bank-correspondent hub for an affordable-housing real estate company. Bun + Nx monorepo, TypeScript API (Hono, Drizzle ORM, PostgreSQL/Supabase, dependency injection) and Next.js front end. The onboarding (identity check, credit pre-approval, income documents) is a tested state machine; 23 domain modules including leads, negotiation, Caixa financing, credit check, audit trail and LGPD data-subject rights. Test-first, ~400 test files (unit, integration against real Postgres, Playwright E2E).
-- **Accounting compliance validation engine** (MSC/SICONFI) for the City of João Pessoa — 78 rules checked before submission to the National Treasury, delivered in 3 phases, with automated institutional PDF reporting (Python, ReportLab)
-- **Monthly multi-platform revenue pipeline** (Hotmart, Kiwify, Shopify, Asaas) for a SaaS analytics business (pandas, openpyxl)
-- **WhatsApp/Telegram sales bot** with Pix payment flow (n8n, Evolution API) and CRM integrations (RD Station)
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,bun,postgres,python,react,nextjs,supabase,aws,docker,git&perline=11" alt="TypeScript, Node.js, Bun, PostgreSQL, Python, React, Next.js, Supabase, AWS, Docker, Git" />
+</p>
 
-## 🛠 Core stack
+Also: Hono, Fastify, Drizzle, Django, React Native, Flutter, Playwright, Vitest, Jest, n8n, Tailwind.
 
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next.js](https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Supabase](https://img.shields.io/badge/supabase-%233FCF8E.svg?style=for-the-badge&logo=supabase&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-web-services&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+## GitHub
 
-Also worked with: Hono, Fastify, Drizzle ORM, Django, React Native, Flutter, Playwright, Vitest, Jest, n8n, Tailwind
-
-## 📫 Contact
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/gabriel-fernandes-paiva)
-[![Email](https://img.shields.io/badge/Email-gabrielpaiva.jm%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:gabrielpaiva.jm@gmail.com)
-
-Open to Backend / Full Stack opportunities — remote, CLT or PJ.
+<p>
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=GabrielFpaiva&theme=transparent" alt="GitHub stats" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=GabrielFpaiva&theme=transparent" alt="Repos per language" />
+</p>
+<p>
+  <img src="https://streak-stats.demolab.com?user=GabrielFpaiva&hide_border=true&background=00000000&ring=2563eb&fire=2563eb&currStreakLabel=2563eb" alt="Contribution streak" />
+</p>
