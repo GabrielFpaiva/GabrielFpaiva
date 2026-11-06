@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://linkedin.com/in/gabriel-fernandes-paiva"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:gabrielpaiva.jm@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://gabrielfpaiva.com.br"><img src="https://img.shields.io/badge/Site-111827?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://gftechsolucoes.com/"><img src="https://img.shields.io/badge/Site-111827?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
   <img src="https://img.shields.io/badge/Open%20to-Backend%20%2F%20Full%20Stack-2563eb?style=flat-square" alt="Open to Backend / Full Stack" />
 </p>
 
